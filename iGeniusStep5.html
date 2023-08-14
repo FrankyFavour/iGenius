@@ -1,0 +1,397 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>iGenius final checkout</title>
+    <link rel="stylesheet" href="css/iGeniusStep5.css" type="text/css" />
+    <link rel="icon" href="Image/Dark-G.png" />
+  </head>
+
+  <body>
+    <div>
+      <nav class="nav-img">
+        <img src="Image/geniuslogo.png" alt="This is geniuslogo" />
+      </nav>
+
+      <nav class="topbar">
+        <ul>
+          <span class="numberSteps Itemactive">1</span>
+          <li><a href="#"> Country & Language</a></li>
+          <li>
+            <a href="#"><hr /></a>
+          </li>
+          <span class="numberSteps Itemactive">2</span>
+          <li><a href="#"> Choose Membership </a></li>
+          <li>
+            <a href="#"><hr /></a>
+          </li>
+          <span class="numberSteps Itemactive">3</span>
+          <li><a href="#"> Prepayment</a></li>
+          <li>
+            <a href="#"><hr /></a>
+          </li>
+          <span class="numberSteps Itemactive">4</span>
+          <li><a href="#"> Personal Info</a></li>
+          <li>
+            <a href="#"><hr /></a>
+          </li>
+          <span class="numberSteps Itemactivetwo">5</span>
+          <li><a href="#" class="active"> Payment & Confirmation</a></li>
+        </ul>
+      </nav>
+
+      <br />
+      <br />
+
+      <h3 class="title">Enrollment Summary</h3>
+      <section style="margin-left: 9%">
+        <div class="prod-contain">
+          <p class="prod-info">
+            <b>Membership</b>
+            <br />
+            Select
+          </p>
+
+          <p class="prod-info">
+            <b>BV</b>
+            <br />
+            100
+          </p>
+
+          <p class="prod-info">
+            <b>Price</b>
+            <br />
+            $174.99
+          </p>
+        </div>
+      </section>
+      <hr class="line" ></hr>
+      <br />
+    
+    </div>
+
+    <section style="margin-left: 9%">
+      <div class="item-contain">
+        <p class="item-info">
+          <b>Total Items:</b>
+          <br />
+          Total BV
+          <br />
+          Total:
+        </p>
+
+        <p class="item-info">
+          <b>1</b>
+          <br />
+          150
+          <br>
+          $299.99
+        </p>
+    </section>
+    <br />
+    <hr class="line"/>
+    
+    <br />
+    <br />
+    <h3 class="sub-title" style="margin-top: -30px">
+      Subscription Summary(To begin 30 days from initial enrollment date)
+    </h3>
+    <section style="margin-left: 9%">
+      <div class="sub-contain">
+        <p class="sub-info">
+          <b>Membership</b>
+          <br />
+          Select
+        </p>
+
+        <p class="sub-info">
+          <b>BV</b>
+          <br />
+          50
+        </p>
+
+        <p class="sub-info">
+          <b>Price</b>
+          <br />
+          $99.99
+        </p>
+      </div>
+    </section>
+    <br />
+   <hr class="line">
+
+    <h3 class="ser-title">Terms of Service</h3>
+    <section class="tems-sec">
+      <div>
+        <input type="checkbox" />
+        <label>
+          I have read and agree to the <a href="#">Terms and Conditions</a> as
+          well as the Cancellation & Refund Policy which states that I may
+          cancel this purchase for a full refund within 10 days by contacting
+          the iGenius Support Team via email (support@igeniusglobal.com). I also
+          understand that ALL subscriptions are digital in nature. The selected
+          subscription(s) are only accessible via the backoffice which is
+          provided upon successful enrollment & purchase of subscription. All
+          products included in my selected subscription are available under the
+          My Products menu tab in the backoffice.
+        </label>
+      </div>
+
+      <div style="margin-top: 12px">
+        <input type="checkbox" />
+        <label>
+          I have read and agree to the <a href="#">Policies and Procedures.</a>
+        </label>
+      </div>
+
+      <div style="margin-top: 12px; margin-bottom: 12px">
+        <input type="checkbox" />
+        <label>
+          I authorize iGenius to charge my card for the amount of $174.99.
+        </label>
+      </div>
+
+      <div>
+        <input type="checkbox" />
+        <label>
+          I understand that I will be billed next month, and on a monthly basis,
+          for the subscription I have selected until I cancel my subscription by
+          contacting the iGenius Support Team via email
+          (support@igeniusglobal.com). I understand that if I prepaid, I will be
+          billed on a monthly basis for the subscription I have selected
+          following my last prepaid month. I understand that if I prepaid, I
+          must contact the iGenius Support Team via email within 10 days of the
+          initial purchase to request to cancel and receive a full refund. If an
+          email is not received within the 10 day refund period, the cardholder
+          is not entitled to a refund per the iGenius Cancellation & Refund
+          Policy.
+        </label>
+      </div>
+    </section>
+
+    <section>
+      <div class="promo-sec">
+        <p>If you have a Promo Code you can enter it here:</p>
+        <div>
+          <input type="text" />
+          <button>Submit</button>
+        </div>
+      </div>
+    </section>
+
+    <section class="pay-sec" style="margin-left: 9%">
+      <div>
+        <h3 class="pay-title">Payment Options</h3>
+      </div>
+
+      <!-------------the footer nav -------->
+      <div class="tab">
+        <p
+          class="tablinks"
+          onclick="openCity(event, 'Credit')"
+          id="defaultOpen"
+        >
+          Credit Card
+        </p>
+
+        <p class="tablinks" onclick="openCity(event, 'USDC')">USDC(Coinbase)</p>
+
+        <p class="tablinks" onclick="openCity(event, 'Bitcoin')">Bitcoin</p>
+
+        <p class="tablinks" onclick="openCity(event, 'Stripe')">Stripe</p>
+
+        <p class="tablinks" onclick="openCity(event, 'Wire')">Wire</p>
+
+        <p class="tablinks" onclick="openCity(event, 'Safetypay')">Safetypay</p>
+      </div>
+    </section>
+
+
+      <div id="Credit" class="tabcontent">
+        <div class="card-contain">
+          <div class="card-sub-contain">
+             <b>We Accept</b>
+         <div class="card-pic">
+          <img src="Image/visa.gif">
+          <img src="Image/mastercard.gif">
+          <img src="Image/discover.gif">
+          <img src="Image/amex.gif">
+         </div>
+          </div>
+
+           <section class="form-sec">
+
+            <div class="grid">
+                <p>Name On Card</p>
+                <input type="text" required> </div>
+           
+            
+             <div class="grid">
+                <p>Credit Card Number</p>
+                <input type="text" required></div>
+      </section>
+
+       <section class="form-sec-expire">
+
+            <div class=" expire-block">
+                <p style="margin-bottom: -5px;">Expiration Date</p>
+                <select name="ccexpmo" id="ccexpmo" class="rowinput" size="1">
+<option value="">[Select Month]</option>
+<option value="01">01 - January</option>
+<option value="02">02 - February</option>
+<option value="03">03 - March</option>
+<option value="04">04 - April</option>
+<option value="05">05 - May</option>
+<option value="06">06 - June</option>
+<option value="07">07 - July</option>
+<option value="08">08 - August</option>
+<option value="09">09 - September</option>
+<option value="10">10 - October</option>
+<option value="11">11 - November</option>
+<option value="12">12 - December</option>
+</select>
+
+<select name="ccexpyr" id="ccexpyr" class="rowinput" size="1">
+<option selected="" value="">[Select Year]</option>
+<option value="23">2023</option>
+<option value="24">2024</option>
+<option value="25">2025</option>
+<option value="26">2026</option>
+<option value="27">2027</option>
+<option value="28">2028</option>
+<option value="29">2029</option>
+<option value="30">2030</option>
+<option value="31">2031</option>
+<option value="32">2032</option>
+<option value="33">2033</option>
+<option value="34">2034</option>
+<option value="35">2035</option>
+<option value="36">2036</option>
+<option value="37">2037</option>
+<option value="38">2038</option>
+<option value="39">2039</option>
+<option value="40">2040</option>
+<option value="41">2041</option>
+<option value="42">2042</option>
+<option value="43">2043</option>
+<option value="44">2044</option>
+<option value="45">2045</option>
+<option value="46">2046</option>
+<option value="47">2047</option>
+<option value="48">2048</option>
+<option value="49">2049</option>
+<option value="50">2050</option>
+</select>
+      </section>
+
+        <section class="form-sec">
+            <div class="grid">
+                <p>Billing Address</p>
+                <input type="text" required> </div>
+            
+             <div class="grid">
+                <p>Billing City</p>
+                <input type="text" required></div>
+      </section>
+
+        <section class="form-sec">
+            <div class="grid">
+                <p>Billing State</p>
+                <input type="text" required> </div>
+           
+            
+             <div class="grid">
+                <p>Billing Zip Code</p>
+                <input type="number" required></div>
+      </section>
+
+        <section class="form-sec">
+
+            <div class="grid">
+                <p>Billing Country</p>
+                <input type="text" required> </div>
+           
+            
+             <div class="grid">
+                <p>CVV2 Security Code</p>
+                <input type="number" required></div>
+                <br>
+                <b>
+                <!-- <a href="#">What is CVV2?</a> --> 
+               </b>
+      </section>
+
+     
+
+</div>
+      
+
+      <div class="purchase-btn">
+         <input type="submit" value="Complete Purchase" class="pur-btn"></input>
+      </div>
+
+      
+
+        </div>
+      </div>
+
+    <div class="cont-sty">
+      <div id="USDC" class="tabcontent">
+        <div class="slide-cont">
+          <button>Proceed To Coinbase</button>
+        </div>
+      </div>
+
+      <div id="Bitcoin" class="tabcontent">
+        <div class="slide-cont">
+          <button>Pay Using Bitcoin</button>
+        </div>
+      </div>
+
+      <div id="Stripe" class="tabcontent">
+        <div class="slide-cont">
+          <p>Stripe Card is not available</p>
+        </div>
+      </div>
+
+      <div id="Wire" class="tabcontent">
+        <div class="slide-cont">
+          <p>Wire is not available</p>
+        </div>
+      </div>
+
+      <div id="Safetypay" class="tabcontent">
+        <div class="slide-cont">
+          <p>SafetyPay is not available</p>
+        </div>
+      </div>
+    </div>
+
+    <footer class="footer">
+      <div>
+        <h3 class="foot-copyright">&copy2023 iGenius.All Rights Reserved.</h3>
+      </div>
+    </footer>
+
+    <!-------------JS--------------->
+
+
+    <script>
+      function openCity(evt, cityName) {
+        var i, tabcontent, tablinks;
+        tabcontent = document.getElementsByClassName('tabcontent');
+        for (i = 0; i < tabcontent.length; i++) {
+          tabcontent[i].style.display = 'none';
+        }
+        tablinks = document.getElementsByClassName('tablinks');
+        for (i = 0; i < tablinks.length; i++) {
+          tablinks[i].className = tablinks[i].className.replace(' active', '');
+        }
+        document.getElementById(cityName).style.display = 'block';
+        evt.currentTarget.className += ' active';
+      }
+
+      // Get the element with id="defaultOpen" and click on it
+      document.getElementById('defaultOpen').click();
+    </script>
+  </body>
+</html>
