@@ -144,6 +144,10 @@ span.nav-num {
   text-align: center;
 }
 
+.enroller {
+  margin-left: -141px;
+}
+
 .grid {
   text-align: left;
 }
@@ -293,7 +297,7 @@ option {
 
 @media screen and (max-width: 900px) {
   .form-title {
-    margin-left: 126px;
+    margin-left: 0px;
   }
 
   .form-sec {
@@ -305,6 +309,10 @@ option {
   .nav-img img {
     width: 29%;
   }
+
+  .enroller {
+    margin-left: 0;
+  }
 }
 
 @media only screen and (max-width: 850px) {
@@ -313,12 +321,10 @@ option {
     margin-top: -18px;
     margin-bottom: 12px;
   }
-}
 
-@media only screen and (max-width: 750px) {
-}
-
-@media screen and (max-width: 730px) {
+  .footer {
+    width: 100vw;
+  }
 }
 
 @media screen and (max-width: 700px) {
@@ -327,11 +333,11 @@ option {
     font-size: 10px;
   }
   .topbar {
-    width: 118%;
+    width: auto;
   }
 
   .topbar a {
-    margin-right: 56px;
+    margin-right: 0px;
   }
 }
 
