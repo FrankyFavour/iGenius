@@ -325,7 +325,8 @@ label {
 
   .topbar a {
     margin-right: 0px;
-    font-size: 13px !important;
+    font-size: 15px !important;
+    font-family: math;
   }
 }
 

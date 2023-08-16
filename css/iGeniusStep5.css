@@ -368,7 +368,6 @@ option {
   color: #000;
 }
 
-
 .purchase-btn {
   text-align: center;
 }
@@ -505,6 +504,8 @@ footer {
 
   .topbar a {
     margin-right: 56px;
+    font-size: 14px !important;
+    font-family: math;
   }
 
   .expire-block {

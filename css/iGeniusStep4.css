@@ -338,6 +338,8 @@ option {
 
   .topbar a {
     margin-right: 0px;
+    font-size: 14px !important;
+    font-family: math;
   }
 }
 
