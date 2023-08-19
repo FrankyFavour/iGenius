@@ -1,11 +1,18 @@
+@import url(https://db.onlinewebfonts.com/c/12108809f49c49bcdc126dcecc938761?family=Nexa+Light);
+
 body {
   margin-left: 9px;
   margin-right: 9px;
   margin-bottom: 12%;
+  font-family: 'Nexa Light' !important;
 }
 .nav-img img {
   width: 11%;
   padding: 21px;
+}
+
+.center {
+  text-align: center;
 }
 
 .nav-img {
@@ -114,7 +121,6 @@ span.nav-num {
 }
 
 .title {
-  font-family: sans-serif;
   margin-left: 9%;
   color: #898989;
   font-weight: 700;
@@ -122,7 +128,6 @@ span.nav-num {
 }
 
 .sub-title {
-  font-family: sans-serif;
   margin-left: 9%;
   color: #898989;
   font-weight: 700;
@@ -130,7 +135,6 @@ span.nav-num {
 }
 
 .ser-title {
-  font-family: sans-serif;
   margin-left: 9%;
   color: #898989;
   font-weight: 700;
@@ -176,7 +180,6 @@ span.nav-num {
   margin-right: 9%;
   color: red;
   font-size: 14px;
-  font-family: system-ui;
 }
 
 .tems-sec a {
@@ -216,7 +219,6 @@ span.nav-num {
   font-size: 33px;
   font-weight: 700;
   color: #898888;
-  font-family: math;
   margin-top: 14px;
 }
 
@@ -236,7 +238,6 @@ span.nav-num {
   border-bottom: lightgrey 3px solid;
   cursor: pointer;
   transition: 0.3s;
-  font-family: math;
 }
 
 .tab p.active {
@@ -259,7 +260,6 @@ span.nav-num {
   text-align: center;
   margin-top: 36px;
   font-size: 18px;
-  font-family: sans-serif;
 }
 
 .cont-sty button {
@@ -303,7 +303,6 @@ span.nav-num {
 
 .form-sec b a {
   text-decoration: none;
-  font-family: math;
   display: flex;
   color: #44b2dd;
 }
@@ -313,7 +312,6 @@ span.nav-num {
   font-weight: 700;
   font-size: 16px;
   margin-left: 207px;
-  font-family: sans-serif;
 }
 
 .form-sec input {
@@ -341,7 +339,6 @@ span.nav-num {
 .form-sec p {
   color: black;
   font-size: 16px;
-  font-family: sans-serif;
   letter-spacing: 1px;
   line-height: 5px;
 }
@@ -398,7 +395,6 @@ footer {
   margin-left: 13%;
   margin-bottom: 28px;
   height: 0px;
-  font-family: san-serif;
 }
 
 /**********Media Query*********/
@@ -503,9 +499,8 @@ footer {
   }
 
   .topbar a {
-    margin-right: 56px;
-    font-size: 14px !important;
-    font-family: math;
+    margin-right: 0px;
+    font-size: 1rem;
   }
 
   .expire-block {

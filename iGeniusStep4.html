@@ -1,214 +1,217 @@
 <!DOCTYPE html>
 <html>
-    <head>
-       <meta charset="UTF-8" />
-        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <title>iGenius Enrollment - My Information</title>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>iGenius Enrollment - My Information</title>
     <link rel="stylesheet" href="css/iGeniusStep4.css" type="text/css" />
     <link rel="icon" href="Image/Dark-G.png" />
-    </head>
+  </head>
 
-    <body>
-         <div>
-      <nav class="nav-img">
-        <img src="Image/geniuslogo.png" alt="This is geniuslogo" />
-      </nav>
+  <body>
+    <nav class="nav-img">
+      <img src="Image/geniuslogo.png" alt="This is geniuslogo" />
+    </nav>
 
-       <nav class="topbar">
-        <ul>
-          <span class="numberSteps Itemactive">1</span>
-          <li><a href="#"> Country & Language</a></li>
-          <li>
-            <a href="#"><hr /></a>
-          </li>
-          <span class="numberSteps Itemactive">2</span>
-          <li><a href="#"> Choose Membership </a></li>
-          <li>
-            <a href="#"><hr /></a>
-          </li>
-          <span class="numberSteps Itemactive">3</span>
-          <li><a href="#"> Prepayment</a></li>
-          <li>
-            <a href="#"><hr /></a>
-          </li>
-          <span class="numberSteps Itemactivetwo">4</span>
-          <li><a href="#"> Personal Info</a></li>
-          <li>
-            <a href="#"><hr /></a>
-          </li>
-          <span class="numberSteps Itemactivethree">5</span>
-          <li><a href="#" class="active"> Payment & Confirmation</a></li>
-        </ul>
-      </nav>
+    <nav class="topbar">
+      <ul>
+        <span class="numberSteps Itemactive">1</span>
+        <li><a href="#"> Country & Language</a></li>
+        <li>
+          <a href="#"><hr /></a>
+        </li>
+        <span class="numberSteps Itemactive">2</span>
+        <li><a href="#"> Choose Membership </a></li>
+        <li>
+          <a href="#"><hr /></a>
+        </li>
+        <span class="numberSteps Itemactive">3</span>
+        <li><a href="#"> Prepayment</a></li>
+        <li>
+          <a href="#"><hr /></a>
+        </li>
+        <span class="numberSteps Itemactivetwo">4</span>
+        <li><a href="#"> Personal Info</a></li>
+        <li>
+          <a href="#"><hr /></a>
+        </li>
+        <span class="numberSteps Itemactivethree">5</span>
+        <li><a href="#" class="active"> Payment & Confirmation</a></li>
+      </ul>
+    </nav>
 
-      <br>
-      <br>
-      
+    <br />
+    <br />
 
+    <form
+      id="enrollmentForm"
+      action="iGeniusStep5.html"
+      onsubmit="return validateForm()"
+    >
       <h2 class="form-title">Personal Information</h2>
       <section class="form-sec">
+        <div class="grid">
+          <p>*First Name</p>
+          <input type="text" required />
+        </div>
 
-            <div class="grid">
-                <p>*First Name</p>
-                <input type="text" required> </div>
-           
-            
-             <div class="grid">
-                <p>Middle Inital</p>
-                <input type="text" required></div>
-            
+        <div class="grid">
+          <p>Middle Inital</p>
+          <input type="text" required />
+        </div>
 
-             <div class="grid">
-                <p>*Last Name</p>
-                <input type="text" required></div>
-            
+        <div class="grid">
+          <p>*Last Name</p>
+          <input type="text" required />
+        </div>
 
-             <div class="grid">
-                <p>Company</p>
-                <input type="text" required></div>
-            
+        <div class="grid">
+          <p>Company</p>
+          <input type="text" required />
+        </div>
 
-             <div class="grid">
-                <p>*Date of Birth</p>
-                <input type="date" name='MM/DD/YYYY' required></div>
-            
+        <div class="grid">
+          <p>*Date of Birth</p>
+          <input type="date" name="MM/DD/YYYY" required />
+        </div>
       </section>
 
-       <h2 class="form-title">Mailing Address</h2>
+      <h2 class="form-title">Mailing Address</h2>
       <section class="form-sec">
+        <div class="grid">
+          <p>*Address Line 1</p>
+          <input type="text" required />
+        </div>
 
-            <div class="grid">
-                <p>*Address Line 1</p>
-                <input type="text" required> </div>
-           
-            
-             <div class="grid">
-                <p>Address Line 2</p>
-                <input type="text" required></div>
-            
+        <div class="grid">
+          <p>Address Line 2</p>
+          <input type="text" required />
+        </div>
 
-             <div class="grid">
-                <p>Address Line 3</p>
-                <input type="text" required></div>
-            
+        <div class="grid">
+          <p>Address Line 3</p>
+          <input type="text" required />
+        </div>
 
-             <div class="grid">
-                <p>*Zip Code</p>
-                <input type="text" required></div>
-            
+        <div class="grid">
+          <p>*Zip Code</p>
+          <input type="text" required />
+        </div>
 
-             <div class="grid">
-                <p>*City</p>
-                <input type="text"required></div>
+        <div class="grid">
+          <p>*City</p>
+          <input type="text" required />
+        </div>
 
-                <div class="grid">
-                <p>*State</p>
-                <input type="text" required></div>
-              <<!---  <select name="state" id="state" class="rowinput" size="1">
-<option value="">Choose</option>
-<option value="Abuja">Abuja</option>
-<option value="Anambra">Anambra</option>
-<option value="Enugu">Enugu</option>
-<option value="Akwa Ibom">Akwa Ibom</option>
-<option value="Adamawa">Adamawa</option>
-<option value="Abia">Abia</option>
-<option value="Bauchi">Bauchi</option>
-<option value="Bayelsa">Bayelsa</option>
-<option value="Benue">Benue</option>
-<option value="Borno">Borno</option>
-<option value="Cross River">Cross River</option>
-<option value="Delta">Delta</option>
-<option value="Ebonyi">Ebonyi</option>
-<option value="Edo">Edo</option>
-<option value="Ekiti">Ekiti</option>
-<option value="Gombe">Gombe</option>
-<option value="Imo">Imo</option>
-<option value="Jigawa">Jigawa</option>
-<option value="Kaduna">Kaduna</option>
-<option value="Kano">Kano</option>
-<option value="Katsina">Katsina</option>
-<option value="Kebbi">Kebbi</option>
-<option value="Kogi">Kogi</option>
-<option value="Kwara">Kwara</option>
-<option value="Lagos">Lagos</option>
-<option value="Nasarawa">Nasarawa</option>
-<option value="Niger">Niger</option>
-<option value="Ogun">Ogun</option>
-<option value="Ondo">Ondo</option>
-<option value="Osun">Osun</option>
-<option value="Oyo">Oyo</option>
-<option value="Plateau">Plateau</option>
-<option value="Rivers">Rivers</option>
-<option value="Sokoto">Sokoto</option>
-<option value="Taraba">Taraba</option>
-<option value="Yobe">Yobe</option>
-<option value="Zamfara">Zamfara</option>
-</select> -->
-                </div>
+        <div class="grid">
+          <p>*State</p>
+          <input type="text" required />
+        </div>
       </section>
 
       <h2 class="form-title">Contact Information</h2>
       <section class="form-sec">
-
-            <div class="grid">
-                <p>*Primary Phone Number</p>
-                <input type="number" required> </div>
-           
-            
-             <div class="grid">
-                <p>Moblie Number</p>
-                <input type="text" required></div>
-      </section>
-      <section class="form-sec">
-             <div class="grid">
-                <p>*Email Address </p>
-                <input type="email" required></div>
-
-             <div class="grid">
-                <p>*Confirm Your Email Address</p>
-                <input type="email" required></div>
-      </section>
-
-       <h2 class="form-title">Your Account Information</h2>
-      <section class="form-sec">
-
-            <div class="grid">
-                <p>*Username</p>
-                <input type="number" required> </div>
-           
-            
-             <div class="grid">
-                <p class="user">Your Website URL: USERNAME.igenius.biz</p></div>
-                
-      </section>
-      <section class="form-sec">
-
-            <div class="grid">
-                <p>*Choose Your Password</p>
-                <input type="password" required> </div>
-           
-            
-             <div class="grid">
-                <p>*Confirm Your Password</p>
-                <input type="password" required> </div>
-              </div>
-      </section>
-      <section class="form-sec">
-         <p class='enroller'>Your Enroller: Christian Crabtree</p>
-      </section>
-
-        <div style="display: grid; justify-content: center; margin-top: 29px">
-          <div class="foot-container">
-            <button class="foot-btn">
-              <a href="iGeniusStep5.html">Continue</a>
-            </button>
-          </div>
+        <div class="grid">
+          <p>*Primary Phone Number</p>
+          <input type="number" required />
         </div>
 
-         <footer class="footer">
-      <div>
+        <div class="grid">
+          <p>Moblie Number</p>
+          <input type="number" required />
+        </div>
+      </section>
+      <section class="form-sec">
+        <div class="grid">
+          <p>*Email Address</p>
+          <input type="email" required />
+        </div>
+
+        <div class="grid">
+          <p>*Confirm Your Email Address</p>
+          <input type="email" required />
+        </div>
+      </section>
+
+      <h2 class="form-title">Your Account Information</h2>
+      <section class="form-sec">
+        <div class="grid">
+          <p>*Username</p>
+          <input
+            type="text"
+            id="usernameInput"
+            required
+            oninput="updateUsernamePlaceholder()"
+          />
+        </div>
+
+        <div class="grid">
+          <p class="user">
+            Your Website URL:
+            <span id="websitePlaceholder">USERNAME</span>.igenius.biz
+          </p>
+        </div>
+      </section>
+      <section class="form-sec">
+        <div class="grid">
+          <p>*Choose Your Password</p>
+          <input type="password" required />
+        </div>
+
+        <div class="grid">
+          <p>*Confirm Your Password</p>
+          <input type="password" required />
+        </div>
+        <!-- </div> -->
+      </section>
+      <section class="form-sec">
+        <p class="enroller">Your Enroller: Christian Crabtree</p>
+      </section>
+
+      <div style="display: grid; justify-content: center; margin-top: 29px">
+        <a href="iGeniusStep5.html">
+          <div class="foot-container">
+            <button class="foot-btn" type="submit">Continue</button>
+          </div>
+        </a>
+      </div>
+    </form>
+
+    <footer class="footer">
+      <div class="center">
         <h3 class="foot-copyright">&copy2023 iGenius.All Rights Reserved.</h3>
       </div>
     </footer>
-    </body>
+
+    <script>
+      function validateForm() {
+        const requiredFields = document.querySelectorAll('input[required]');
+        let isValid = true;
+
+        requiredFields.forEach((field) => {
+          if (field.value.trim() === '') {
+            isValid = false;
+            field.classList.add('error');
+          } else {
+            field.classList.remove('error');
+          }
+        });
+
+        if (!isValid) {
+          alert('Please fill in all required fields.');
+        }
+
+        return isValid;
+      }
+
+      function updateUsernamePlaceholder() {
+        const usernameInput = document.getElementById('usernameInput');
+        const websitePlaceholder =
+          document.getElementById('websitePlaceholder');
+
+        // Update the placeholder value with the entered username
+        websitePlaceholder.textContent = usernameInput.value || 'USERNAME';
+      }
+    </script>
+  </body>
 </html>

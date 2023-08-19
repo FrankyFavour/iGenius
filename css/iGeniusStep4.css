@@ -1,13 +1,17 @@
-* {
-  font-family: cursive;
-}
+@import url(https://db.onlinewebfonts.com/c/12108809f49c49bcdc126dcecc938761?family=Nexa+Light);
 
 body {
   margin-left: 9px;
   margin-right: 9px;
   margin-bottom: 12%;
   color: #e9e9e9;
+  font-family: 'Nexa Light' !important;
 }
+
+.center {
+  text-align: center;
+}
+
 .nav-img img {
   width: 11%;
   padding: 21px;
@@ -24,7 +28,6 @@ body {
 .topbar {
   display: flex;
   justify-content: center;
-  padding: 12px;
   margin-top: 42px;
   column-gap: 10px;
   align-items: center;
@@ -157,7 +160,6 @@ span.nav-num {
   font-weight: 700;
   font-size: 16px;
   margin-left: 207px;
-  font-family: sans-serif;
 }
 
 .form-sec input {
@@ -181,7 +183,6 @@ span.nav-num {
 .form-sec p {
   color: #898888;
   font-size: 16px;
-  font-family: fangsong;
   letter-spacing: 1px;
   line-height: 5px;
 }
@@ -233,7 +234,6 @@ option {
 
 .foot-btn a {
   color: white;
-  font-family: fangsong;
   text-decoration: none;
 }
 
@@ -253,7 +253,6 @@ option {
   margin-left: 13%;
   margin-bottom: 28px;
   height: 0px;
-  font-family: san-serif;
 }
 
 /**********Media Query*********/
@@ -338,8 +337,7 @@ option {
 
   .topbar a {
     margin-right: 0px;
-    font-size: 14px !important;
-    font-family: math;
+    font-size: 1rem;
   }
 }
 
