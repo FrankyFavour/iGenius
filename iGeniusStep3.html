@@ -1,44 +1,54 @@
 <!DOCTYPE html>
 <html>
   <head>
-        <meta charset="UTF-8" />
-        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>iGenius Enrollment - My Information</title>
     <link rel="stylesheet" href="css/iGeniusStep3.css" type="text/css" />
-    
+
     <link rel="icon" href="Image/Dark-G.png" />
   </head>
 
   <body>
-    <div>
+    <main>
       <nav class="nav-img">
         <img src="Image/geniuslogo.png" alt="This is geniuslogo" />
       </nav>
 
       <nav class="topbar">
-        <ul>
-          <span class="numberSteps Itemactive">1</span>
-          <li><a href="#"> Country & Language</a></li>
+        <ul class="main-list">
+          <div class="main-list">
+            <span class="numberSteps Itemactive">1</span>
+            <li><a href="#"> Country & Language</a></li>
+          </div>
           <li>
             <a href="#"><hr /></a>
           </li>
-          <span class="numberSteps Itemactive">2</span>
-          <li><a href="#"> Choose Membership </a></li>
+          <div class="main-list">
+            <span class="numberSteps Itemactive">2</span>
+            <li><a href="#"> Choose Membership </a></li>
+          </div>
           <li>
             <a href="#"><hr /></a>
           </li>
-          <span class="numberSteps Itemactivetwo">3</span>
-          <li><a href="#"> Prepayment</a></li>
+          <div class="main-list">
+            <span class="numberSteps Itemactivetwo">3</span>
+            <li><a href="#"> Prepayment</a></li>
+          </div>
           <li>
             <a href="#"><hr /></a>
           </li>
-          <span class="numberSteps Itemactivethree">4</span>
-          <li><a href="#"> Personal Info</a></li>
+          <div class="main-list">
+            <span class="numberSteps Itemactivethree">4</span>
+            <li><a href="#"> Personal Info</a></li>
+          </div>
           <li>
             <a href="#"><hr /></a>
           </li>
-          <span class="numberSteps Itemactivethree">5</span>
-          <li><a href="#" class="active"> Payment & Confirmation</a></li>
+          <div class="main-list">
+            <span class="numberSteps Itemactivethree">5</span>
+            <li><a href="#" class="active"> Payment & Confirmation</a></li>
+          </div>
         </ul>
       </nav>
 
@@ -49,41 +59,58 @@
       <section>
         <p class="price-quest">
           Do you want to prepay?
-          <input type="radio" class="btnOne" checked />
+          <input
+            type="radio"
+            id="btnOne"
+            class="btnOne"
+            name="prepayOption"
+            checked
+          />
           <label for="btnOne"> No prepay</label>
         </p>
 
         <div class="price">
           <ul class="price-contain">
             <li>
-              <input type="radio" name="btn" class="btnTwo" />
-              <label for="btn"></label>
-                Prepay for
-                <u class="price-under">an additional</u>
-                3 months for $474.99 /
-                <s class="price-cancel">$524.97</s>
-              </p>
-            </li>
-
-            <li>
-              <input type="radio" name="btn" class="btnTwo" />
-              <label for="btn"
-                >Prepay for <u class="price-under">an additional</u> 6
-                months for $874.99 / <s class="price-cancel">$1049.94</s>
+              <input
+                type="radio"
+                id="btnTwo1"
+                class="btnTwo"
+                name="prepayOption"
+              />
+              <label for="btnTwo1">
+                Prepay for <u class="price-under">an additional</u> 3 months for
+                $474.99 / <s class="price-cancel">$524.97</s>
               </label>
             </li>
-
             <li>
-              <input type="radio" name="btn" class="btnTwo" />
-              <label for="btn"
-                >Prepay for <u class="price-under">an additional</u> 12
-                months for $1749.99 /
-                <s class="price-cancel">$2,099.88</s>
+              <input
+                type="radio"
+                id="btnTwo2"
+                class="btnTwo"
+                name="prepayOption"
+              />
+              <label for="btnTwo2">
+                Prepay for <u class="price-under">an additional</u> 6 months for
+                $874.99 / <s class="price-cancel">$1049.94</s>
+              </label>
+            </li>
+            <li>
+              <input
+                type="radio"
+                id="btnTwo3"
+                class="btnTwo"
+                name="prepayOption"
+              />
+              <label for="btnTwo3">
+                Prepay for <u class="price-under">an additional</u> 12 months
+                for $1749.99 / <s class="price-cancel">$2,099.88</s>
               </label>
             </li>
           </ul>
         </div>
-        <!---------------Continue Button-------------->
+
+        <!-- Continue Button -->
         <div style="display: grid; justify-content: center; margin-top: 29px">
           <div class="foot-container">
             <button class="foot-btn">
@@ -92,10 +119,10 @@
           </div>
         </div>
       </section>
-    </div>
+    </main>
 
     <footer class="footer">
-      <div>
+      <div class="center">
         <h3 class="foot-copyright">&copy2023 iGenius.All Rights Reserved.</h3>
       </div>
     </footer>
